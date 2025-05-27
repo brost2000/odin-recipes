@@ -18,7 +18,33 @@ body {
   font-size: 14px;
   background-color: #cdd6f4;
   color: #cdd6f4;
-  padding: 10px;
+  padding: 10px;  
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 12px;
 }
+
+.lasagna {
+  max-width: 150px;
+  box-sizing: border-box;
+  background-color: #eff1f5;
+  color: #4c4f69;
+  border: 1px solid rgba(0, 0, 0, 0,5);
+  border-radius: 12px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.lasagna img {
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+}
+
