@@ -1,0 +1,12 @@
+body {
+  background-color: #dce0e8;
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  background-color: #df8e1d;
+  color: #4c4f69;
+  padding: 30px;
+  margin-bottom: 10px;
+}
