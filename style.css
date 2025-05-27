@@ -1,12 +1,24 @@
 body {
-  background-color: #dce0e8;
+  background-color: #1e1e2e;
 }
 
 .header {
-  font-size: 40px;
+  font-size: 24px;
   text-align: center;
-  background-color: #df8e1d;
-  color: #4c4f69;
-  padding: 30px;
-  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  background-color: #313244;
+  color: #cdd6f4;
+  margin-bottom: 8px;
+}
+
+.body {
+  font-size: 14px;
+  background-color: #cdd6f4;
+  color: #cdd6f4;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 12px;
 }
