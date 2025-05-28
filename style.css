@@ -5,7 +5,10 @@
 
 body {
   background-color: #AFDDE5;
+  margin: 10px;
 }
+
+/* Header */
 
 .header {
   font-size: 24px;
@@ -14,4 +17,108 @@ body {
   font-family: myFont;
 
   background-color: #AFDDE5;
+  color: #003135;
+
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation Bar*/
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #024950;
+
+  border: 1px rgb(0, 0, 0, 0);
+  border-radius: 12px;
+}
+
+.navigation li a {
+  display: block;
+  color: #AFDDE5;
+
+  text-align: center;
+  font-family: myFont;
+  font-size: 16px;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #003135;
+  border: 1px rgb(0, 0, 0, 0);
+  border-radius: 12px;
+}
+
+/* Lasagna */
+
+.recipes {
+  display: flex;
+  gap: 5px;
+}
+
+
+.Lasagna {
+  background-color: #024950;
+  color: #AFDDE5;
+  text-align: center; 
+  font-family: myFont;
+
+  border: 1px rgb(0, 0, 0, 0);
+  border-radius: 12px;
+}
+
+.Lasagna:hover {
+  background-color: #003135;
+}
+
+.Lasagna a {
+  text-decoration: none;
+  color: inherit;
+}
+  
+.Lasagna img {
+  width: 150px;
+  height: auto;
+  border: 1px rgb(0, 0, 0, 0);
+  border-radius: 12px;
+}
+
+/* Fettuccine */
+
+.Fettuccine {
+  background-color: #024950;
+  color: #AFDDE5;
+  text-align: center; 
+  font-family: myFont;
+
+  border: 1px rgb(0, 0, 0, 0);
+  border-radius: 12px;
+}
+
+.Fettuccine:hover {
+  background-color: #003135;
+}
+
+
+.Fettuccine a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Fettuccine img {
+  width: 150px;
+  height: auto;
+  border: 1px rgb(0, 0, 0, 0);
+  border-radius: 12px;
 }
