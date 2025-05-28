@@ -4,21 +4,25 @@ body {
 
 .header {
   font-size: 24px;
-  text-align: center;
   font-weight: bold;
-  border: 1px solid rgba(0, 0, 0, 0);
+
+  border: 1px solid red;
   border-radius: 12px;
+
   background-color: #ffffff;
   color: #333333;
   margin-bottom: 4px;
+  display: flex;
+  text-align: center;
 }
 
 .body {
   font-size: 14px;
   background-color: #ffffc31;
   color: #ffffff;  
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid red;
   border-radius: 12px;
+  display: flex;
 }
 
 .navigation ul {
@@ -26,8 +30,9 @@ body {
   margin-bottom: 4px;
   padding: 0;
   overflow: hidden;
+
   background-color: #333333;
-  border: 1px solid #333333;
+  border: 1px solid red;
   border-radius: 12px;
 }
 
@@ -52,7 +57,7 @@ body {
   box-sizing: border-box;
   background-color: #3c3836;
   color: #f9f5d7;
-  border: 1px solid rgba(0, 0, 0, 0,5);
+  border: 1px solid red;
   border-radius: 12px;
   padding-bottom: 1px;
   margin-bottom: 4px;
@@ -74,7 +79,7 @@ body {
   box-sizing: border-box;
   background-color: #3c3836;
   color: #f9f5d7;
-  border: 1px solid rgba(0, 0, 0, 0,5);
+  border: 1px solid red;
   border-radius: 12px;
   padding-bottom: 1px;
   margin-bottom: 4px;
